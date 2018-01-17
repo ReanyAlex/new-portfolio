@@ -1,5 +1,59 @@
 body {
-  margin: 0;
+  position: absolute;
+  margin: 0 auto;
   padding: 0;
   font-family: sans-serif;
+  background-image: url('https://images.freecreatives.com/wp-content/uploads/2015/04/natural-paper-background-texture-hd-5a0b.jpg');
+  max-width: 1120px;
+  max-height: 720px;
+  /* overflow: hidden; */
+}
+
+#root {
+  margin: 0 auto;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.App {
+  max-width: 1120px;
+  /* max-height: 720px; */
+  position: fixed;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#header {
+  position: fixed;
+  left: 0%;
+  width: 100%;
+  height: 80px;
+  background-color: gray;
+  margin: 0;
+  padding: 0;
+}
+#introduction {
+  min-height: 520px;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -500px;
+  margin-bottom: 120px;
+  background-color: peru;
+  border: 1px solid black;
+}
+
+#skillSet {
+  min-height: 520px;
+  max-height: 520px;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 120px;
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+text.text {
+  width: 50px;
 }
