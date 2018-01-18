@@ -7,10 +7,11 @@ const Header = styled.h1`
   font-family: 'Cormorant Garamond', serif;
 `;
 
-const TextDiv = styled.div`
+let TextDiv = styled.div`
   max-width: 740px;
   margin: 0 auto;
   font-size: 1.5rem;
+  opacity: 1;
 `;
 
 export default function() {
@@ -28,6 +29,7 @@ export default function() {
           enjoy spending time outdoors with family and friends.
         </p>
       </TextDiv>
+      <button onClick={() => document.querySelector('#introduction').classList.add('skills')}>Move Down</button>
     </div>
   );
 }

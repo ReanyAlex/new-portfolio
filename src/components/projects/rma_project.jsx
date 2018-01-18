@@ -15,7 +15,7 @@ export default function() {
         </p>
       </div>
       <div>
-        <h4>Technology:</h4>
+        {/* <h4>Technology:</h4>
         <ul>
           <li>MongoDB</li>
           <li>Express</li>
@@ -25,7 +25,7 @@ export default function() {
           <li>Styled-Components</li>
           <li>Recharts</li>
           <li>React Router</li>
-        </ul>
+        </ul> */}
       </div>
     </div>
   );
